@@ -1,0 +1,8 @@
+.wrapper-contact {
+    min-height: 80vh;
+}
+
+.contact-input-group input,
+.contact-input-group textarea{
+    border: 1px solid;
+}

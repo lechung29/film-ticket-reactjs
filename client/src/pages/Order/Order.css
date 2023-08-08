@@ -1,0 +1,58 @@
+.minus-btn, 
+.plus-btn {
+    height: 50px;
+    width: 50px;
+    border: none;
+    background: transparent;
+}
+
+.minus-btn:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.plus-btn:hover {
+    background-color: #198754;
+    color: white;
+}
+
+.active-display {
+    display: block!important;
+}
+
+.order-section {
+    min-height: 80vh;
+}
+
+
+.content-box {
+    position: fixed;
+    display: none;
+    height: 80%;
+    width: 60%;
+    top: 10%;
+    left: 20%;
+    background: #fff;
+    border: 12px solid ;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+
+.close-btn {
+    font-size: 32px;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.close-btn:hover {
+    cursor: pointer;
+}
+
+.infor-content {
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    width: 80%;
+}

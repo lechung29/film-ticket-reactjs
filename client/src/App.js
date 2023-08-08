@@ -4,18 +4,19 @@ import { ToastContainer } from 'react-toastify';
 import Home from './pages/Home/Home'
 import Contact from './pages/Contact/Contact'
 import Order from './pages/Order/Order'
-import Film from './pages/Film/Film'
+import About from './pages/About/About'
 function App() {
+  window.onbeforeunload = function (e) {
+    localStorage.clear();
+  };
   return (
     <>
-      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/contact' element={<Contact/>} />
+          <Route path='/about' element={<About />} />
           <Route path='/order' element={<Order />} />
-          <Route path='/film' element={<Film />} />
         </Routes>
-      </BrowserRouter>
     </>
   );
 }

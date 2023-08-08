@@ -1,6 +1,3 @@
-.logo span {
-    color: rgb(229, 9, 20);
-}
 
 .page-link-items {
     color: #fff;
@@ -22,4 +19,9 @@
 
 .page-link-items:active {
     opacity: 0.5;
+}
+
+.logo span:hover {
+    text-shadow: red -3px 0,
+                 cyan 3px 0;
 }
